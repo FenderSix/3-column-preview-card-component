@@ -3,7 +3,7 @@ body {
 }
 
 div {
-  padding: 5%;
+  padding: 4%;
 }
 
 h1 {
@@ -15,21 +15,108 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'Lexend Deca', sans-serif;
   font-size: 93.75%;
+  padding-bottom: 30%;
 }
 
 .firstBox {
   background-color: hsl(31, 77%, 52%);
-  width: 25%;
+  width: 15%;
 }
 
 .secondBox {
   background-color: hsl(184, 100%, 22%);
-  width: 25%;
+  width: 15%;
 }
 
 .thirdBox {
   background-color: hsl(179, 100%, 13%);
-  width: 25%;
+  width: 15%;
+}
+
+/******************* BUTTONS *******************/
+
+.btn-sedans {
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   height: 0;
+   line-height: 0;
+   color: hsl(31, 77%, 52%);
+   font-family: 'Lexend Deca', sans-serif;
+   width: 100px;
+   font-size: 93.75%;
+   font-weight: 100;
+   padding: 18px;
+   background-color: hsl(0, 0%, 95%);
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-sedans:hover {
+   background: hsl(33, 77%, 95%);
+   border: solid #337FED 0;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+
+.btn-suvs {
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   height: 0;
+   line-height: 0;
+   color: hsl(184, 100%, 22%);
+   font-family: 'Lexend Deca', sans-serif;
+   width: 100px;
+   font-size: 93.75%;
+   font-weight: 100;
+   padding: 18px;
+   background-color: hsl(0, 0%, 95%);
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-suvs:hover {
+   background: hsl(185, 100%, 95%);
+   border: solid #337FED 0;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+
+.btn-luxury {
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   height: 0;
+   line-height: 0;
+   color: hsl(179, 100%, 13%);
+   font-family: 'Lexend Deca', sans-serif;
+   width: 100px;
+   font-size: 93.75%;
+   font-weight: 100;
+   padding: 18px;
+   background-color: hsl(0, 0%, 95%);
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-luxury:hover {
+   background: hsl(180, 100%, 95%);
+   border: solid #337FED 0;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   text-decoration: none;
 }
 
 .attribution {
