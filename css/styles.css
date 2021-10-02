@@ -3,7 +3,7 @@ body {
 }
 
 div {
-  padding: 4%;
+  padding: 50px;
 }
 
 h1 {
@@ -18,19 +18,30 @@ p {
   padding-bottom: 30%;
 }
 
+.all-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-boxes > div {
+  display: inline-block;
+  width: 175px;
+}
+
 .firstBox {
   background-color: hsl(31, 77%, 52%);
-  width: 15%;
+  /*  width: 15%; */
 }
 
 .secondBox {
   background-color: hsl(184, 100%, 22%);
-  width: 15%;
+  /*  width: 15%; */
 }
 
 .thirdBox {
   background-color: hsl(179, 100%, 13%);
-  width: 15%;
+/*  width: 15%; */
 }
 
 /******************* BUTTONS *******************/
@@ -120,6 +131,7 @@ p {
 }
 
 .attribution {
+  display: block;
   font-size: 11px;
   text-align: center;
 }
