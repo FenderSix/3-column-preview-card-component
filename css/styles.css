@@ -1,129 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
   background-color: hsl(0, 0%, 95%);
 }
 
-div {
-  padding: 4%;
-}
-
 h1 {
-  color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
   font-family: 'Big Shoulders Display', cursive;
+  font-size: 3.5rem;
+  margin-top: 2rem;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 93.75%;
-  padding-bottom: 30%;
+  font-size: 1.5rem;
+  margin: 2rem 0 7rem;
+}
+
+/* .container {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 45rem auto;
+  padding: 0 6rem;
+} */
+.my-group {
+  padding: 10%;
 }
 
 .firstBox {
   background-color: hsl(31, 77%, 52%);
-  width: 15%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 4rem;
+  text-align: left;
 }
 
 .secondBox {
   background-color: hsl(184, 100%, 22%);
-  width: 15%;
+  padding: 4rem;
+  text-align: left;
 }
 
 .thirdBox {
   background-color: hsl(179, 100%, 13%);
-  width: 15%;
+  border-radius: 1rem;
+  padding: 4rem;
+  text-align: left;
 }
 
 /******************* BUTTONS *******************/
-
 .btn-sedans {
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
-   height: 0;
-   line-height: 0;
-   color: hsl(31, 77%, 52%);
-   font-family: 'Lexend Deca', sans-serif;
-   width: 100px;
-   font-size: 93.75%;
-   font-weight: 100;
-   padding: 18px;
-   background-color: hsl(0, 0%, 95%);
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  height: 0;
+  line-height: 0;
+  color: hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca', sans-serif;
+  width: 100px;
+  font-size: 93.75%;
+  font-weight: 100;
+  padding: 18px;
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn-sedans:hover {
-   background: hsl(33, 77%, 95%);
-   border: solid #337FED 0;
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
-   text-decoration: none;
+  background: hsl(33, 77%, 95%);
+  border: solid #337FED 0;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  text-decoration: none;
 }
 
 .btn-suvs {
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
-   height: 0;
-   line-height: 0;
-   color: hsl(184, 100%, 22%);
-   font-family: 'Lexend Deca', sans-serif;
-   width: 100px;
-   font-size: 93.75%;
-   font-weight: 100;
-   padding: 18px;
-   background-color: hsl(0, 0%, 95%);
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  height: 0;
+  line-height: 0;
+  color: hsl(184, 100%, 22%);
+  font-family: 'Lexend Deca', sans-serif;
+  width: 100px;
+  font-size: 93.75%;
+  font-weight: 100;
+  padding: 18px;
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn-suvs:hover {
-   background: hsl(185, 100%, 95%);
-   border: solid #337FED 0;
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
-   text-decoration: none;
+  background: hsl(185, 100%, 95%);
+  border: solid #337FED 0;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  text-decoration: none;
 }
 
 .btn-luxury {
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
-   height: 0;
-   line-height: 0;
-   color: hsl(179, 100%, 13%);
-   font-family: 'Lexend Deca', sans-serif;
-   width: 100px;
-   font-size: 93.75%;
-   font-weight: 100;
-   padding: 18px;
-   background-color: hsl(0, 0%, 95%);
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  height: 0;
+  line-height: 0;
+  color: hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca', sans-serif;
+  width: 100px;
+  font-size: 93.75%;
+  font-weight: 100;
+  padding: 18px;
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn-luxury:hover {
-   background: hsl(180, 100%, 95%);
-   border: solid #337FED 0;
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
-   text-decoration: none;
+  background: hsl(180, 100%, 95%);
+  border: solid #337FED 0;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  text-decoration: none;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width 800px) {
+  .firstBox {
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+  }
 }
