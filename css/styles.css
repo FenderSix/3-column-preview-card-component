@@ -30,6 +30,10 @@ p {
   padding: 10%;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 .firstBox {
   background-color: hsl(31, 77%, 52%);
   border-radius: 1rem 0 0 1rem;
