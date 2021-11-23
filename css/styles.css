@@ -4,17 +4,12 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-div {
-  padding: 50px;
-=======
 html {
   font-size: 10px;
 }
 
 body {
   background-color: hsl(0, 0%, 95%);
->>>>>>> styling-experiments
 }
 
 h1 {
@@ -35,42 +30,20 @@ p {
   padding: 10%;
 }
 
-.all-boxes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.all-boxes > div {
-  display: inline-block;
-  width: 175px;
-}
-
 .firstBox {
   background-color: hsl(31, 77%, 52%);
-<<<<<<< HEAD
-  /*  width: 15%; */
-=======
   border-radius: 1rem 0 0 1rem;
   padding: 4rem;
->>>>>>> styling-experiments
 }
 
 .secondBox {
   background-color: hsl(184, 100%, 22%);
-<<<<<<< HEAD
-  /*  width: 15%; */
-=======
   padding: 4rem;
   border-radius: 0;
->>>>>>> styling-experiments
 }
 
 .thirdBox {
   background-color: hsl(179, 100%, 13%);
-<<<<<<< HEAD
-/*  width: 15%; */
-=======
   border-radius: 0 1rem 1rem 0;
   padding: 4rem;
 }
@@ -79,7 +52,6 @@ p {
   padding: 0;
   background-color: inherit;
   border-top: 0;
->>>>>>> styling-experiments
 }
 
 /******************* BUTTONS *******************/
@@ -119,7 +91,6 @@ p {
 
 /* Footer */
 .attribution {
-  display: block;
   font-size: 11px;
   text-align: center;
   margin-top: 2rem;
